@@ -1,8 +1,5 @@
 # rate-limiter
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()
-[![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)]()
 
 Token bucket and sliding window rate limiter library for TypeScript/Node.js. Two battle-tested algorithms behind a single unified interface, with zero external dependencies.
 
@@ -13,7 +10,7 @@ Rate limiting is foundational infrastructure for APIs, job queues, and any syste
 ## Installation
 
 ```bash
-npm install rate-limiter
+npm install && npm run build
 ```
 
 Or install from source:
