@@ -7,9 +7,15 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": ["rate-limit", "token-bucket", "sliding-window", "throttle"],
+  "keywords": [
+    "rate-limit",
+    "token-bucket",
+    "sliding-window",
+    "throttle"
+  ],
   "author": "Nripanka Das",
   "license": "MIT",
   "devDependencies": {
